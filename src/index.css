@@ -1,0 +1,11 @@
+body {
+    background-color: #f9f9fa;
+    color: #0707fa;
+    font-family: Arial, sans-serif;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  

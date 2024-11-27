@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .kanban-board {
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .board {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .ticket-list {
+    background: #3e0505;
+    border: 1px solid #9e0707;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  .ticket-card {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .priority.high {
+    color: red;
+  }
+  
+  .priority.medium {
+    color: orange;
+  }
+  
+  .priority.low {
+    color: green;
+  }
+  
